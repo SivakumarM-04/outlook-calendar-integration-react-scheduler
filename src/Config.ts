@@ -10,5 +10,5 @@ const config = {
       'calendars.readwrite'
     ]
   };
-
+  
   export default config;
