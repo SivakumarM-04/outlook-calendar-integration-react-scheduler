@@ -3,11 +3,11 @@ import { render, screen } from '@testing-library/react';
 import App from './App';
 import { PublicClientApplication } from '@azure/msal-browser';
 
-var pca: PublicClientApplication;
+let pca: PublicClientApplication;
 
 test('renders learn react link', () => {
- 
-  render(<App pca={pca}/>);
+
+  render(<App pca={pca} />);
   const linkElement = screen.getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });
