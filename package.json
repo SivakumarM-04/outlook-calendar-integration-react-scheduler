@@ -14,7 +14,6 @@
     "@azure/msal-react": "^5.0.6",
     "@microsoft/microsoft-graph-client": "^3.0.7",
     "@syncfusion/ej2-react-schedule": "^32.2.3",
-    "isomorphic-fetch": "^3.0.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
