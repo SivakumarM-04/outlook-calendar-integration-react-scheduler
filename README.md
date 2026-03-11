@@ -17,9 +17,9 @@ This repository contains a sample full-stack application demonstrating how to sy
 ### Cloning the repository
     
 - Clone the repository to your local machine
-### Set up application id
+### Set up client id
 
-- Replace **YOUR_APP_ID** in the `authConfig.ts` with your generated id to integrate your outlook calender events to the React scheduler.
+- Replace **YOUR_CLIENT_ID** in the `authConfig.ts` with your generated id to integrate your outlook calender events to the React scheduler.
 
 
 ## Running the Application
@@ -47,6 +47,6 @@ This repository contains a sample full-stack application demonstrating how to sy
 
 ## Troubleshooting
 - **npm install stuck or fails**: Delete node_modules + package-lock.json, restart system, and reinstall using npm install.
-- **401 Unauthorized**: Check App_ID in Config.ts
+- **401 Unauthorized**: Check CLIENT_ID in authConfig.ts
 
 
